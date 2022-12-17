@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assingment</title>
+    <style>
+        *{box-sizing: border-box;
+       margin: 5px;
+	   width:auto;
+        position: relative;
+        
+    }
+        .first{
+            background-color: grey;
+            border: 2px solid black;
+            width: 30%;
+			
+            float: left;
+            
+        }
+        .first1{
+            background-color: pink;
+            color:SOLID black;
+            width: fit-content;
+            border: 2px solid black;
+        }
+        .second{
+            background-color: red;
+            color: white;
+            width: fit-content;
+            border: 2px solid black;
+        }
+        .third{
+            background-color:goldenrod ;
+            color: black;
+            width: fit-content;
+            border: 2px solid black;
+        }
+        .float2{
+            background-color: grey;
+            border: 2px solid black;
+            width: 30%;
+			
+            float: left;
+        }
+        .float3{
+            background-color: grey;
+            border: 2px solid black;
+            width: 30%;
+			
+            float: left;
+        }
+        .infosection{margin:10px;
+		padding:0px;
+		width:100%;
+        }
+        .forheading{
+            text-align: center;
+            text-decoration: solid;
+            margin-bottom: 50px;
+        }
+        @media (min-width: 992px) and (max-width: 1200px)
+        {
+            .first{
+			width: 30%;
+			}
+            .float2{
+			width: 30%;
+			}
+            .float3
+			{width: 30%;
+			}
+
+        }
+		@media(min-width:768px) and (max-width:991px)
+		{
+		.first{
+		width: 45%;}
+		.float2{
+		width: 45%;}
+		.float3{
+		width:100%;}
+		}
+		@media(max-width:767px){
+		.first{
+		width:100%;}
+		.float2{
+		width:100%;}
+		.float3{
+		width:100%;}
+		}
+    </style>
+</head>
+<body style="margin:25px">
+    <h1 class="forheading">Our Menu</h1>
+    <div class="infosection">
+    
+    <div class="first">
+    <h2 class="first1">Chicken</h2>
+    <P>ajshfv hv afva jf fs fljav fv ajvsjh ajhlfvas vajlfvs ajhfva jhsfvasj vajlfv ajhfvsaj hvhfasj vfajh fvasjhl vajlf v</P>
+    </div>
+    <div class="float2">
+        <h2 class="second">Beef</h2>
+        <p>bisfb i bfi abf bf aifbisbf ibfi bisdb sbf bisdbdis bgisbfisbdb sdibgisb sb sbd bsifbsifb sbf ia fb  b fi fbai fbfb bifbaib </p>
+    </div>
+    <div class="float3">
+        <h2 class="third">Sushi</h2>
+        <p>kfbskdbf sbgjksbks b bskdbgsbdb sdigbisbieb idkf bgbsdb sl bsb sbgskdbg kbsgsbrgjk sbdfkbsgkbsdkbgks bgksdbg rbgksbf sibgisdk bsg</p>
+    </div>
+    </div>
+
+</body>
+</html>
